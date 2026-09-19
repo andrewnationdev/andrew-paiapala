@@ -1,70 +1,18 @@
-# GitHub Codespaces ♥️ React
+# Andrew Paiapala Linux - Especificação do Aplicativo
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+## 1. Visão Geral
+Andrew Paiapala é um software de documentação técnica minimalista, ultrarrápido e projetado para substituir editores pesados e wikis genéricas. A ferramenta une Markdown estruturado, mapeamento inteligente de dependências e busca instantânea.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## 2. Recursos Principais
+- **Editor Markdown Estruturado:** Seções predefinidas para Visão Geral, Arquitetura, Fluxos e Decisões Técnicas (ADR), eliminando perda de tempo com formatação visual.
+- **Mapa de Relações Contextual:** Vinculação rápida entre módulos, componentes e rotas sem diagramas complexos e difíceis de manter.
+- **Busca Instantânea por Tags:** Indexação local em tempo real com atalhos de teclado globais inspirados em ferramentas CLI, permitindo encontrar qualquer informação em segundos.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## 3. Interface e Experiência do Usuário (UI/UX)
+- **Design:** Interface limpa, densidade de informação otimizada para desenvolvedores.
+- **Painel Duplo (Split View):** Visualização instantânea do Markdown renderizado ao lado do editor bruto com suporte a modo escuro profundo.
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
-
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
-
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
-
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
-
-### Advanced Configuration
-
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
-
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+## 4. Linguagens e Tecnologias
+- **Frontend & Lógica:** TypeScript, React (com Vite) para máxima performance de renderização.
+- **Gerenciamento de Estado:** Zustand para controle leve e reativo do estado local.
+- **Estilização:** Tailwind CSS com paleta de cores neutras e desaturadas (foco em legibilidade e menor fadiga visual).
